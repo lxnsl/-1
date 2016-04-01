@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F04805D0220D84FCDFD7A0D /* libPods-侧边栏练习Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 669EF2E632A0C196B14D2C46 /* libPods-侧边栏练习Tests.a */; };
 		9941DA2F1CAD20A400EEA76D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9941DA2E1CAD20A400EEA76D /* main.m */; };
 		9941DA321CAD20A400EEA76D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9941DA311CAD20A400EEA76D /* AppDelegate.m */; };
 		9941DA351CAD20A400EEA76D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9941DA341CAD20A400EEA76D /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		9941DA3D1CAD20A400EEA76D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9941DA3B1CAD20A400EEA76D /* LaunchScreen.storyboard */; };
 		9941DA481CAD20A400EEA76D /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9941DA471CAD20A400EEA76D /* _____Tests.m */; };
 		9941DA531CAD20A400EEA76D /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9941DA521CAD20A400EEA76D /* _____UITests.m */; };
+		9941DA631CAD2D7E00EEA76D /* JVLeftDrawerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9941DA621CAD2D7E00EEA76D /* JVLeftDrawerTableViewController.m */; };
+		9941DA661CAD2E2900EEA76D /* JVGitHubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9941DA651CAD2E2900EEA76D /* JVGitHubViewController.m */; };
+		9941DA691CAD2F0B00EEA76D /* JVDrawerSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9941DA681CAD2F0B00EEA76D /* JVDrawerSettingsTableViewController.m */; };
+		FCBA4FBC9A3E807C43DFA5F3 /* libPods-侧边栏练习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F324755AD668C8A428A88C17 /* libPods-侧边栏练习.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034C878B4AD035E7056AF7B3 /* Pods-侧边栏练习Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-侧边栏练习Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-侧边栏练习Tests/Pods-侧边栏练习Tests.release.xcconfig"; sourceTree = "<group>"; };
+		33E09185EBA913C026547014 /* Pods-侧边栏练习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-侧边栏练习.release.xcconfig"; path = "Pods/Target Support Files/Pods-侧边栏练习/Pods-侧边栏练习.release.xcconfig"; sourceTree = "<group>"; };
+		669EF2E632A0C196B14D2C46 /* libPods-侧边栏练习Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-侧边栏练习Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E54AF6D8ECD0736E7F3426 /* Pods-侧边栏练习Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-侧边栏练习Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-侧边栏练习Tests/Pods-侧边栏练习Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		98CF013781A3F9E46F925259 /* Pods-侧边栏练习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-侧边栏练习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-侧边栏练习/Pods-侧边栏练习.debug.xcconfig"; sourceTree = "<group>"; };
 		9941DA2A1CAD20A400EEA76D /* 侧边栏练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "侧边栏练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9941DA2E1CAD20A400EEA76D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9941DA301CAD20A400EEA76D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,13 @@
 		9941DA4E1CAD20A400EEA76D /* 侧边栏练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "侧边栏练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9941DA521CAD20A400EEA76D /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		9941DA541CAD20A400EEA76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9941DA611CAD2D7E00EEA76D /* JVLeftDrawerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVLeftDrawerTableViewController.h; sourceTree = "<group>"; };
+		9941DA621CAD2D7E00EEA76D /* JVLeftDrawerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVLeftDrawerTableViewController.m; sourceTree = "<group>"; };
+		9941DA641CAD2E2900EEA76D /* JVGitHubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVGitHubViewController.h; sourceTree = "<group>"; };
+		9941DA651CAD2E2900EEA76D /* JVGitHubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVGitHubViewController.m; sourceTree = "<group>"; };
+		9941DA671CAD2F0B00EEA76D /* JVDrawerSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVDrawerSettingsTableViewController.h; sourceTree = "<group>"; };
+		9941DA681CAD2F0B00EEA76D /* JVDrawerSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVDrawerSettingsTableViewController.m; sourceTree = "<group>"; };
+		F324755AD668C8A428A88C17 /* libPods-侧边栏练习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-侧边栏练习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBA4FBC9A3E807C43DFA5F3 /* libPods-侧边栏练习.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F04805D0220D84FCDFD7A0D /* libPods-侧边栏练习Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0D16991B10AC40A84B6283 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F324755AD668C8A428A88C17 /* libPods-侧边栏练习.a */,
+				669EF2E632A0C196B14D2C46 /* libPods-侧边栏练习Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9941DA211CAD20A400EEA76D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				9941DA461CAD20A400EEA76D /* 侧边栏练习Tests */,
 				9941DA511CAD20A400EEA76D /* 侧边栏练习UITests */,
 				9941DA2B1CAD20A400EEA76D /* Products */,
+				D576BB8464828AF0EA6D5457 /* Pods */,
+				4F0D16991B10AC40A84B6283 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,7 @@
 		9941DA2C1CAD20A400EEA76D /* 侧边栏练习 */ = {
 			isa = PBXGroup;
 			children = (
+				9941DA601CAD2C8B00EEA76D /* personal controllers */,
 				9941DA301CAD20A400EEA76D /* AppDelegate.h */,
 				9941DA311CAD20A400EEA76D /* AppDelegate.m */,
 				9941DA331CAD20A400EEA76D /* ViewController.h */,
@@ -140,6 +171,30 @@
 			path = "侧边栏练习UITests";
 			sourceTree = "<group>";
 		};
+		9941DA601CAD2C8B00EEA76D /* personal controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9941DA641CAD2E2900EEA76D /* JVGitHubViewController.h */,
+				9941DA671CAD2F0B00EEA76D /* JVDrawerSettingsTableViewController.h */,
+				9941DA681CAD2F0B00EEA76D /* JVDrawerSettingsTableViewController.m */,
+				9941DA651CAD2E2900EEA76D /* JVGitHubViewController.m */,
+				9941DA611CAD2D7E00EEA76D /* JVLeftDrawerTableViewController.h */,
+				9941DA621CAD2D7E00EEA76D /* JVLeftDrawerTableViewController.m */,
+			);
+			name = "personal controllers";
+			sourceTree = "<group>";
+		};
+		D576BB8464828AF0EA6D5457 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98CF013781A3F9E46F925259 /* Pods-侧边栏练习.debug.xcconfig */,
+				33E09185EBA913C026547014 /* Pods-侧边栏练习.release.xcconfig */,
+				88E54AF6D8ECD0736E7F3426 /* Pods-侧边栏练习Tests.debug.xcconfig */,
+				034C878B4AD035E7056AF7B3 /* Pods-侧边栏练习Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9941DA571CAD20A400EEA76D /* Build configuration list for PBXNativeTarget "侧边栏练习" */;
 			buildPhases = (
+				73387964C71A6A417CEE7D77 /* Check Pods Manifest.lock */,
 				9941DA261CAD20A400EEA76D /* Sources */,
 				9941DA271CAD20A400EEA76D /* Frameworks */,
 				9941DA281CAD20A400EEA76D /* Resources */,
+				3D62384B8D9F867E83FAE348 /* Embed Pods Frameworks */,
+				CC1D76651099015B238A08B7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9941DA5A1CAD20A400EEA76D /* Build configuration list for PBXNativeTarget "侧边栏练习Tests" */;
 			buildPhases = (
+				4727CFA7859BE7EAAA7A5D23 /* Check Pods Manifest.lock */,
 				9941DA3F1CAD20A400EEA76D /* Sources */,
 				9941DA401CAD20A400EEA76D /* Frameworks */,
 				9941DA411CAD20A400EEA76D /* Resources */,
+				BEA93B21AB112DECCF8EFFF1 /* Embed Pods Frameworks */,
+				0348763CB8265C362E3DBD01 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,13 +329,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0348763CB8265C362E3DBD01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-侧边栏练习Tests/Pods-侧边栏练习Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D62384B8D9F867E83FAE348 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-侧边栏练习/Pods-侧边栏练习-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4727CFA7859BE7EAAA7A5D23 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73387964C71A6A417CEE7D77 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA93B21AB112DECCF8EFFF1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-侧边栏练习Tests/Pods-侧边栏练习Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC1D76651099015B238A08B7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-侧边栏练习/Pods-侧边栏练习-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9941DA261CAD20A400EEA76D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9941DA351CAD20A400EEA76D /* ViewController.m in Sources */,
+				9941DA631CAD2D7E00EEA76D /* JVLeftDrawerTableViewController.m in Sources */,
 				9941DA321CAD20A400EEA76D /* AppDelegate.m in Sources */,
+				9941DA691CAD2F0B00EEA76D /* JVDrawerSettingsTableViewController.m in Sources */,
+				9941DA661CAD2E2900EEA76D /* JVGitHubViewController.m in Sources */,
 				9941DA2F1CAD20A400EEA76D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +569,7 @@
 		};
 		9941DA581CAD20A400EEA76D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CF013781A3F9E46F925259 /* Pods-侧边栏练习.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "侧边栏练习/Info.plist";
@@ -423,6 +581,7 @@
 		};
 		9941DA591CAD20A400EEA76D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E09185EBA913C026547014 /* Pods-侧边栏练习.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "侧边栏练习/Info.plist";
@@ -434,6 +593,7 @@
 		};
 		9941DA5B1CAD20A400EEA76D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E54AF6D8ECD0736E7F3426 /* Pods-侧边栏练习Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "侧边栏练习Tests/Info.plist";
@@ -446,6 +606,7 @@
 		};
 		9941DA5C1CAD20A400EEA76D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 034C878B4AD035E7056AF7B3 /* Pods-侧边栏练习Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "侧边栏练习Tests/Info.plist";
@@ -499,6 +660,7 @@
 				9941DA591CAD20A400EEA76D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9941DA5A1CAD20A400EEA76D /* Build configuration list for PBXNativeTarget "侧边栏练习Tests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +669,7 @@
 				9941DA5C1CAD20A400EEA76D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9941DA5D1CAD20A400EEA76D /* Build configuration list for PBXNativeTarget "侧边栏练习UITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +678,7 @@
 				9941DA5F1CAD20A400EEA76D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
